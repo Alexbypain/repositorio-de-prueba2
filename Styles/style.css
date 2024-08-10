@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    background-color: #F3F5FC;
+    margin:0px;
+    width:100%;
+}
+
+main{
+    display:flex;
+    flex-direction: row;
+
+}
+
+.logo__alura{
+    margin:3.90625% 0px 0px 2.7777777%;
+    width:8.33333%;
+    height:4.6875%;
+}
+div{
+    margin:11.5951% 0px 7.03125% 5.555% ;
+    display:flex;
+    flex-direction: column;
+    gap:50.382653%;
+    width: 74%;
+}
+
+.text__area{
+    margin:0%;
+    padding:0%;
+    background-color: #F3F5FC;
+    width:100%;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    height: 36.7346938%;
+    color: #0A3871;
+    border:none;
+    outline:none;
+    display: flex;
+
+}
+
+.inferior{
+    margin:0%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    gap:16px;
+}
+.advertencia{
+    margin:0px;
+    width: 229px;
+    height: 18px;
+    top: 851px;
+    left: 240px;
+    gap: 8px;
+    opacity: 0px;
+    display:flex;
+    flex-direction: row;
+    gap:7px;
+}
+.advertencia__imagen{
+    width:16px;
+    height: 16px;
+}
+.advertencia__texto{
+    margin:0px;
+    font-family: "Inter", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #495057;
+
+
+
+}
+
+.botones{
+    width: 100%;
+    height: 67px;
+    display:flex;
+    gap: 3.5294%;;
+}
+
+.boton__encriptar{
+    width:48.235294%;
+    height: auto;
+    border-radius: 24px;
+    background-color: #0A3871;
+    color: #E9ECF8;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 19.36px;
+    align-items: center;
+    border: none;
+
+}
+
+.boton__desencriptar{
+    background-color:#D8DFE8;
+    width:48.235294%;
+    height:auto;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color:#0A3871;
+    line-height: 19.36px;
+    align-items: center;
+}
+
+.area__ejecucion{
+    border-radius: 2rem;
+    margin:3.90625% 2.77777% 3.90625% 5.555555%;
+    background-color: white;
+    width: 43%;
+    height: 92.1875%;
+    align-content: center;
+    display:flex;
+    flex-direction: column;
+    gap:3.38983%;
+}
+.muñeco{
+    width: auto;
+    height:100%;
+    margin:0%;
+    padding: 15.1875rem 2rem 15.1875rem 2rem;
+    display:flex;
+    flex-direction: column;
+    gap:32px;
+}
+
+.muñeco__imagen{
+    height:29.6875%;
+    width:100%;
+}
+
+.muñeco__texto{
+    width:auto;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    margin: 0%;
+    gap:1.694%;
+}
+
+.muñeco__texto__titulo{
+    margin:0px;
+    height: auto;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #343A40;
+    line-height: 28.8px;
+
+}
+.muñeco__texto__parrafo{
+    height: auto;
+    margin:0px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    color: #495057;
+    line-height: 24px;
+
+}
+
+.nuevo-div{
+    margin:3.3898 8% 13.877118% 8%;
+    padding:0%;
+    display:flex;
+    flex-direction:column;
+    gap:3.389830%;
+    height:48.8125rem;
+    width:84.4%;
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color: #495057;
+    word-wrap: break-word;
+    overflow:visible ;
+    
+   
+}
+
+
+
+.nuevo-boton{
+    margin:32px 32px 32px 32px;   
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: center;
+
+    width: auto;
+    height:67px;
+    border-radius: 24px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #0A3871;
+    background-color: #ffffff;
+
+}
+
+
+@media (max-width: 768px)  {
+    
+
+    main{
+        margin:0%;
+        display: flex;
+        width:100%;
+        flex-direction: column;
+        height: 100vh; 
+    }
+ 
+
+    .logo__alura{
+        content: url('/assets/Logo.png');
+        margin:6.2538330% 0px 0px 5.2083333%;
+        display:flex;
+        width:4.025%;
+        height:5.83209101%;
+    }
+    div{
+        padding:0px;
+        margin:11.5951% 3.40715% 0% 5.2083333% ;
+        display:flex;
+        flex-direction: column;
+        gap:43.8672%;
+        width: 89.5833333%;
+        height:59.028960%;
+    }
+    .text__area{
+        height: 100%;
+        margin:0%;
+        padding:0%;
+        background-color: #F3F5FC;
+        width:auto;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 2rem;
+        height: 36.7346938%;
+        color: #0A3871;
+        border:none;
+        outline:none;
+        display: flex;
+    
+    }
+
+
+    .inferior{
+        margin:0%;
+        padding:0%;
+        width:100%;
+        height: 14.57431457%;
+        display:flex;
+        flex-direction: column;
+        gap:16px;
+    }
+    .advertencia{
+        margin:0px;
+        width: 229px;
+        height: 18px;
+        top: 851px;
+        left: 240px;
+        gap: 8px;
+        opacity: 0px;
+        display:flex;
+        flex-direction: row;
+        gap:7px;
+    }
+    .advertencia__imagen{
+        width:16px;
+        height: 16px;
+    }
+    .advertencia__texto{
+        margin:0px;
+        font-family: "Inter", sans-serif;
+        font-size: 0.75rem;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: left;
+        color: #495057;
+    
+    
+    
+    }
+    
+    .botones{
+        width: 100%;
+        height: 100%;
+        display:flex;
+        gap: 3.5294%;;
+    }
+    
+    .boton__encriptar{
+        width:48.235294%;
+        height: auto;
+        border-radius: 24px;
+        background-color: #0A3871;
+        color: #E9ECF8;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 19.36px;
+        align-items: center;
+        border: none;
+    
+    }
+    
+    .boton__desencriptar{
+        background-color:#D8DFE8;
+        width:48.235294%;
+        height:auto;
+        border-radius: 24px;
+        border: 1px solid #0A3871;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        color:#0A3871;
+        line-height: 19.36px;
+        align-items: center;
+    }
+
+    .area__ejecucion{
+        border-radius: 2rem;
+        width: 89.5833%;
+        margin:3.40715% 5.20833% 3.40715% 5.20833%;
+        background-color: black;
+        width: 100%;
+        height: 11.3287%;
+        align-content: center;
+        display:flex;
+        flex-direction: column;
+    }
+
+    .muñeco__imagen{
+        display: none;
+        height:0%;
+        width:0%;
+    }
+    .muñeco{
+        width: 100%;
+        height: 100%;
+        width:auto;
+        padding:0;
+    }
+    
+
+    .muñeco__texto{
+        width:100%;
+        height: 100%;
+        margin: 32px;
+        gap:0%;
+
+    }
+
+    .muñeco__texto__titulo{
+        margin:0px;
+        height: 100%;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 1.5rem;
+        text-align: center;
+        color: #343A40;
+        line-height: 28.8px;
+
+    }
+    .muñeco__texto__parrafo{
+        height: 100%;
+        margin:0px;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        text-align: center;
+        color: #495057;
+        line-height: 24px;
+
+    }
+        
+
+        
+}
+    
